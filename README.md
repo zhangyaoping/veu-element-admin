@@ -88,4 +88,4 @@ npm run lint -- --fix
 
 ## License
 
-Copyright (c) 2017-present PanJiaChen
+Copyright (c) 2018-present zhangyao
