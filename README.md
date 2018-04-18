@@ -1,43 +1,13 @@
 <p align="center">
   <img width="320" src="https://wpimg.wallstcn.com/ecc53a42-d79b-42e2-8852-5126b810a4c8.svg">
 </p>
-
-<p align="center">
-  <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-2.5.10-brightgreen.svg" alt="vue">
-  </a>
-  <a href="https://github.com/ElemeFE/element">
-    <img src="https://img.shields.io/badge/element--ui-2.0.8-brightgreen.svg" alt="element-ui">
-  </a>
-  <a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="nofollow">
-    <img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/releases">
-    <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
-  </a>
-</p>
-
 English | [简体中文](./README.zh-CN.md)
 
 ## Introduction
 
 `vue-element-admin` is a production-ready solution for admin interfaces. Based on [Vue.js](https://github.com/vuejs/vue) and use the UI Toolkit -- [element](https://github.com/ElemeFE/element). `vue-element-admin` is a magical vue admin, it based on the newest development stack of vue, built-in i18n solution, typical templates for enterprise applications, lots of awesome features. It helps you build a large complex Single-Page Applications. I believe whatever your needs are, this project will help you.
 
-- [Preview](http://panjiachen.github.io/vue-element-admin)
-
-- [Documentation](https://panjiachen.github.io/vue-element-admin-site/#/)
-
-- [Wiki](https://github.com/PanJiaChen/vue-element-admin/wiki)
-
-- [Donate](https://panjiachen.github.io/vue-element-admin-site/#/donate)
-
 **vue-element-admin is a admin interfaces integration solution, which is not suitable for secondary development as a base template.**
-
- - Base template recommends using: [vueAdmin-template](https://github.com/PanJiaChen/vueAdmin-template)  
- - Desktop: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
 
 **Note: This project uses element-ui@2.0.0+ version, so the minimum compatible vue@2.5.0+**
 
@@ -53,50 +23,35 @@ You need to install [node](http://nodejs.org/) and [git](https://git-scm.com/) l
   <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
 </p>
 
-## Features
+## 功能
 ```
-- Login / Logout
-- Permission authentication
-- Multi-environment build
-- Dynamic sidebar (supports multi-level routing)
-- Dynamic breadcrumb
-- I18n
-- Customizable theme
-- Tags-view(Tab page Support right-click operation)
-- Rich text editor
-- Markdown editor
-- JSON editor
-- Screenfull
-- Drag and drop list
-- Svg Sprite
+- 登录/注销
+- 权限验证
+- 多环境发布
+- 动态侧边栏（支持多级路由）
+- 动态面包屑
+- 国际化多语言
+- 多种动态换肤
+- 快捷导航(标签页)
+- Svg Sprite 图标
 - Dashboard
-- Mock data
-- Echarts
-- Clipboard
-- 401/404 error page
-- Error log
-- Export excel
-- Export zip
-- Front-end visualization excel
-- Tree Table
+- 本地mock数据
+- Echarts 图表
+- Clipboard(剪贴复制)
+- 401/404错误页面
+- 导出excel
+- 导出zip
+- 前端可视化excel
+- 树形table
 - Table example
-- Dynamictable example
-- Drag and drop table example
-- Inline edit table example
-- Form example
-- Two-step login
-- SplitPane
-- Dropzone
-- Sticky
-- CountTo
-- Markdown to html
+- 动态table example
 ```
 
 ## Getting started
 
 ```bash
 # clone the project
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/zhangyaoping/veu-element-admin.git
 
 # install dependency
 npm install
@@ -105,7 +60,7 @@ npm install
 npm run dev
 ```
 
-This will automatically open http://localhost:9527.
+This will automatically open http://localhost:3000.
 
 ## Build
 ```bash
@@ -131,25 +86,6 @@ npm run lint
 npm run lint -- --fix
 ```
 
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/#/deploy) for more information
-
-## Changelog
-Detailed changes for each release are documented in the [release notes](https://github.com/PanJiaChen/vue-element-admin/releases).
-
-## Online Demo
-[Preview](http://panjiachen.github.io/vue-element-admin)
-
-## Donate
-If you find this project useful, you can buy author a glass of juice :tropical_drink:
-
-![donate](https://wpimg.wallstcn.com/bd273f0d-83a0-4ef2-92e1-9ac8ed3746b9.png)
-
-[Paypal Me](https://www.paypal.me/panfree23)
-
-[Buy me a coffee](https://www.buymeacoffee.com/Pan)
-
 ## License
-
-[MIT](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
 
 Copyright (c) 2017-present PanJiaChen
