@@ -5,7 +5,7 @@
 
 ## 简介
 
-`vue-element-admin` 是一个后台集成解决方案，它基于 [Vue.js](https://github.com/vuejs/vue) 和 [element](https://github.com/ElemeFE/element)。它使用了最新的前端技术栈，内置了i18国际化解决方案，动态路由，权限验证等很多功能特性。
+`vue-element-admin` 是一个后台集成解决方案，它基于 [Vue.js](https://github.com/vuejs/vue) 和 [element](https://github.com/ElemeFE/element)。它使用了最新的前端技术栈,动态路由，权限验证等很多功能特性。
 
 **注意：该项目使用 element-ui@2.0.0+ 版本，所以最低兼容 vue@2.5.0+**
 
